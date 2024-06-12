@@ -1,0 +1,232 @@
+.main-page {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; // Set the height of the main page to the full viewport height
+  
+    .header {
+      width: 100%;
+    }
+  
+    .boxes {
+      flex: 1; // Allow the boxes container to take up remaining space
+      overflow-y: auto; // Enable vertical scrolling
+      padding: 10px; // Add padding to the boxes container
+    }
+  
+    .header-title {
+      color: black;
+      line-height: 0;
+      font-size: 36px;
+      font-weight: 400;
+      font-family: 'Coolvetica';
+      padding-left: 8px;
+    }
+  
+    .header-note {
+      color: black;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Coolvetica';
+      padding-left: 8px;
+  
+      .contact-link {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+  
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  
+    .boxes-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 10px; // Add padding to the boxes container
+      overflow-y: auto; // Enable vertical scrolling for the boxes container
+      max-height: calc(
+        100vh - 230px
+      ); // Adjust the max-height according to your footer height and padding
+    }
+  
+    .box {
+      position: relative;
+      flex: 1 1 20%;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 16px;
+      min-width: calc(20% - 10px);
+      max-width: calc(100% - 25px);
+      border: 4px solid black;
+      background-color: lightcoral;
+      opacity: 0;
+      animation: fadeInAnimation 0.5s forwards;
+  
+      .box-header {
+        height: 24%;
+        padding-left: 8px;
+        font-family: 'Coolvetica';
+      }
+  
+      .title {
+        color: rgb(0, 0, 0);
+        line-height: 0;
+        font-size: 28px;
+        font-weight: 400;
+      }
+  
+      .selection-label {
+        color: white;
+        line-height: 0;
+        font-size: 22px;
+        font-weight: 400;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.5px;
+        padding-bottom: 2px;
+      }
+  
+      .loader-container {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      }
+  
+      .loader-visible {
+        opacity: 1;
+        transition: opacity 0.2s;
+      }
+  
+      .loader-hidden {
+        opacity: 0;
+        transition: opacity 0.2s;
+      }
+  
+      .stats-label {
+        color: white;
+        line-height: 0;
+        font-size: 16px;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0px;
+      }
+  
+      .buttons-container {
+        overflow: auto;
+        justify-content: center;
+        height: 67%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+  
+        .box-image {
+          top: 98px;
+          position: absolute;
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+          border: 2.5px solid black;
+          background-color: #26bbff;
+        }
+  
+        .button-box {
+          z-index: 1;
+          border-radius: 50%;
+          padding: 2px;
+          padding-top: 10px;
+          min-width: calc(20% - 10px);
+          max-width: calc(100% - 25px);
+        }
+  
+        .button-image {
+          background-color: rgba(255, 255, 255, 0.6);
+          border-radius: 25%;
+          border: 5px solid lightcoral;
+          padding: 2px;
+          transition: background-color 0.5s ease;
+        }
+  
+        .button-icon {
+          width: 50px;
+          height: auto;
+        }
+  
+        .button-image:hover {
+          transition: 0.8s;
+          background-color: white;
+        }
+  
+        .button-image:active {
+          transition: 0s;
+          box-shadow: 0 4px rgb(74, 74, 79);
+          transform: translateY(4px);
+        }
+  
+        .button-image.selected {
+          background-color: yellow;
+        }
+      }
+    }
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the footer is above other content */
+    text-align: center;
+  
+    .greeting,
+    .probability-label,
+    .small-talk-comparison {
+      color: black;
+      line-height: 0.8;
+      margin: 0;
+      padding: 5px 0;
+      font-family: 'Coolvetica';
+    }
+  
+    .greeting {
+      font-size: 24px;
+      font-weight: 400;
+    }
+  
+    .probability-label {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  
+    .combined-probability {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  
+    .small-talk-comparison {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: scale(0.0001);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @for $i from 1 through 17 {
+    .box:nth-child(#{$i}) {
+      animation: fadeInAnimation #{1s} forwards;
+      animation-delay: ($i + 4) * 0.25s;
+    }
+  }
+  

@@ -1,0 +1,666 @@
+{
+    "boxes": [
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Color",
+            "buttons": [
+                {
+                    "name": "Red",
+                    "icon": "/icons/color/redcolor.png"
+                },
+                {
+                    "name": "Blue",
+                    "icon": "/icons/color/bluecolor.png"
+                },
+                {
+                    "name": "Green",
+                    "icon": "/icons/color/greencolor.png"
+                },
+                {
+                    "name": "Yellow",
+                    "icon": "/icons/color/yellowcolor.png"
+                },
+                {
+                    "name": "Pink",
+                    "icon": "/icons/color/pinkcolor.png"
+                },
+                {
+                    "name": "Purple",
+                    "icon": "/icons/color/purplecolor.png"
+                },
+                {
+                    "name": "Black",
+                    "icon": "/icons/color/blackcolor.png"
+                },
+                {
+                    "name": "White",
+                    "icon": "/icons/color/whitecolor.png"
+                },
+                {
+                    "name": "Grey",
+                    "icon": "/icons/color/greycolor.png"
+                },
+                {
+                    "name": "Orange",
+                    "icon": "/icons/color/orangecolor.png"
+                },
+                {
+                    "name": "Brown",
+                    "icon": "/icons/color/browncolor.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/animal.png",
+            "title": "Animal",
+            "buttons": [
+                {
+                    "name": "Dog",
+                    "icon": "/icons/animal/dog.png"
+                },
+                {
+                    "name": "Cat",
+                    "icon": "/icons/animal/cat.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Turtle",
+                    "icon": "/icons/animal/turtle.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Shark",
+                    "icon": "/icons/animal/shark.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Hamster",
+                    "icon": "/icons/animal/hamster.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Crocodile",
+                    "icon": "/icons/animal/crocodile.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Lion",
+                    "icon": "/icons/animal/lion.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Elephant",
+                    "icon": "/icons/animal/elephant.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Flamingo",
+                    "icon": "/icons/animal/flamingo.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Bear",
+                    "icon": "/icons/animal/bear.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Giraffe",
+                    "icon": "/icons/animal/giraffe.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Snake",
+                    "icon": "/icons/animal/snake.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Octopus",
+                    "icon": "/icons/animal/octopus.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Panda",
+                    "icon": "/icons/animal/panda.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Parrot",
+                    "icon": "/icons/animal/parrot.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Penguin",
+                    "icon": "/icons/animal/penguin.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Sloth",
+                    "icon": "/icons/animal/sloth.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Unicorn",
+                    "icon": "/icons/animal/unicorn.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Tiger",
+                    "icon": "/icons/animal/tiger.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Whale",
+                    "icon": "/icons/animal/whale.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Horse",
+                    "icon": "/icons/animal/horse.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Koala",
+                    "icon": "/icons/animal/koala.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Peacock",
+                    "icon": "/icons/animal/peacock.png",
+                    "color": "#23d939"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/food.png",
+            "title": "Theater Snack",
+            "buttons": [
+                {
+                    "name": "Pretzel",
+                    "icon": "/icons/movietheatersnack/pretzel.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Popcorn",
+                    "icon": "/icons/movietheatersnack/popcorn.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Pizza",
+                    "icon": "/icons/movietheatersnack/pizza.png",
+                    "color": "#23d939"
+                },
+                {
+                    "name": "Candy",
+                    "icon": "/icons/movietheatersnack/candy.png",
+                    "color": "#23d939"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/vacation.png",
+            "title": "Vacation",
+            "buttons": [
+                {
+                    "name": "Skiing",
+                    "icon": "/icons/vacation/skiing.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Camping",
+                    "icon": "/icons/vacation/camping.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Beach",
+                    "icon": "/icons/vacation/beach.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Cruise",
+                    "icon": "/icons/vacation/cruise.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Tourism",
+                    "icon": "/icons/vacation/tourism.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "National Park",
+                    "icon": "/icons/vacation/nationalpark.png",
+                    "color": "#aba939"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/season.png",
+            "title": "Season",
+            "buttons": [
+                {
+                    "name": "Fall",
+                    "icon": "/icons/season/fall.png"
+                },
+                {
+                    "name": "Winter",
+                    "icon": "/icons/season/winter.png"
+                },
+                {
+                    "name": "Summer",
+                    "icon": "/icons/season/summer.png"
+                },
+                {
+                    "name": "Spring",
+                    "icon": "/icons/season/spring.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/candy.png",
+            "title": "Dessert",
+            "buttons": [
+                {
+                    "name": "Ice Cream",
+                    "icon": "/icons/dessert/icecream.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Cake",
+                    "icon": "/icons/dessert/cake.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Cookie",
+                    "icon": "/icons/dessert/cookie.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Pie",
+                    "icon": "/icons/dessert/pie.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Cupcake",
+                    "icon": "/icons/dessert/cupcake.png",
+                    "color": "#aba939"
+                },
+                {
+                    "name": "Donut",
+                    "icon": "/icons/dessert/donut.png",
+                    "color": "#aba939"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/music.png",
+            "title": "Soft Drink",
+            "buttons": [
+                {
+                    "name": "Coffee",
+                    "icon": "/icons/softdrink/coffee.png"
+                },
+                {
+                    "name": "Tea",
+                    "icon": "/icons/softdrink/tea.png"
+                },
+                {
+                    "name": "Water",
+                    "icon": "/icons/softdrink/water.png"
+                },
+                {
+                    "name": "Bubble Tea",
+                    "icon": "/icons/softdrink/bubbletea.png"
+                },
+                {
+                    "name": "Juice",
+                    "icon": "/icons/softdrink/juice.png"
+                },
+                {
+                    "name": "Milk",
+                    "icon": "/icons/softdrink/milk.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/drink.png",
+            "title": "Hard Drink",
+            "buttons": [
+                {
+                    "name": "Beer",
+                    "icon": "/icons/harddrink/beer.png"
+                },
+                {
+                    "name": "Wine",
+                    "icon": "/icons/harddrink/wine.png"
+                },
+                {
+                    "name": "Champagne",
+                    "icon": "/icons/harddrink/champagne.png"
+                },
+                {
+                    "name": "Cocktail",
+                    "icon": "/icons/harddrink/cocktail.png"
+                },
+                {
+                    "name": "Sake",
+                    "icon": "/icons/harddrink/sake.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Music Genre",
+            "buttons": [
+                {
+                    "name": "Country",
+                    "icon": "/icons/musicgenre/country.png"
+                },
+                {
+                    "name": "Jazz",
+                    "icon": "/icons/musicgenre/jazz.png"
+                },
+                {
+                    "name": "Rap",
+                    "icon": "/icons/musicgenre/rap.png"
+                },
+                {
+                    "name": "Rock",
+                    "icon": "/icons/musicgenre/rock.png"
+                },
+                {
+                    "name": "EDM",
+                    "icon": "/icons/musicgenre/edm.png"
+                },
+                {
+                    "name": "Classical",
+                    "icon": "/icons/musicgenre/classical.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Media",
+            "buttons": [
+                {
+                    "name": "Movie/TV",
+                    "icon": "/icons/media/tv.png"
+                },
+                {
+                    "name": "Reading",
+                    "icon": "/icons/media/book.png"
+                },
+                {
+                    "name": "Podcast",
+                    "icon": "/icons/media/podcast.png"
+                },
+                {
+                    "name": "Radio",
+                    "icon": "/icons/media/radio.png"
+                },
+                {
+                    "name": "Videogames",
+                    "icon": "/icons/media/videogame.png"
+                },
+                {
+                    "name": "Acting",
+                    "icon": "/icons/media/acting.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Sport",
+            "buttons": [
+                {
+                    "name": "Soccer",
+                    "icon": "/icons/sport/soccer.png"
+                },
+                {
+                    "name": "Football",
+                    "icon": "/icons/sport/football.png"
+                },
+                {
+                    "name": "Tennis",
+                    "icon": "/icons/sport/tennis.png"
+                },
+                {
+                    "name": "Basketball",
+                    "icon": "/icons/sport/basketball.png"
+                },
+                {
+                    "name": "Cricket",
+                    "icon": "/icons/sport/cricket.png"
+                },
+                {
+                    "name": "Baseball",
+                    "icon": "/icons/sport/baseball.png"
+                },
+                {
+                    "name": "Dance",
+                    "icon": "/icons/sport/dance.png"
+                },
+                {
+                    "name": "Martial Arts",
+                    "icon": "/icons/sport/martialarts.png"
+                },
+                {
+                    "name": "Badminton",
+                    "icon": "/icons/sport/badminton.png"
+                },
+                {
+                    "name": "Bowling",
+                    "icon": "/icons/sport/bowling.png"
+                },
+                {
+                    "name": "Boxing",
+                    "icon": "/icons/sport/boxing.png"
+                },
+                {
+                    "name": "Wrestling",
+                    "icon": "/icons/sport/wrestling.png"
+                },
+                {
+                    "name": "Track",
+                    "icon": "/icons/sport/track.png"
+                },
+                {
+                    "name": "Volleyball",
+                    "icon": "/icons/sport/volleyball.png"
+                },
+                {
+                    "name": "Frisbee",
+                    "icon": "/icons/sport/frisbee.png"
+                },
+                {
+                    "name": "Golf",
+                    "icon": "/icons/sport/golf.png"
+                },
+                {
+                    "name": "Ping Pong",
+                    "icon": "/icons/sport/pingpong.png"
+                },
+                {
+                    "name": "Lacrosse",
+                    "icon": "/icons/sport/lacrosse.png"
+                },
+                {
+                    "name": "Hockey",
+                    "icon": "/icons/sport/hockey.png"
+                },
+                {
+                    "name": "Softball",
+                    "icon": "/icons/sport/softball.png"
+                },
+                {
+                    "name": "Rugby",
+                    "icon": "/icons/sport/rugby.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Holiday",
+            "buttons": [
+                {
+                    "name": "Halloween",
+                    "icon": "/icons/holiday/halloween.png"
+                },
+                {
+                    "name": "Christmas",
+                    "icon": "/icons/holiday/christmas.png"
+                },
+                {
+                    "name": "Thanksgiving",
+                    "icon": "/icons/holiday/thanksgiving.png"
+                },
+                {
+                    "name": "4th of July",
+                    "icon": "/icons/holiday/4thofjuly.png"
+                },
+                {
+                    "name": "Hanukkah",
+                    "icon": "/icons/holiday/hanukkah.png"
+                },
+                {
+                    "name": "Easter",
+                    "icon": "/icons/holiday/easter.png"
+                },
+                {
+                    "name": "Valentines Day",
+                    "icon": "/icons/holiday/valentinesday.png"
+                },
+                {
+                    "name": "St. Patricks Day",
+                    "icon": "/icons/holiday/stpatricksday.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "School Subject",
+            "buttons": [
+                {
+                    "name": "Math",
+                    "icon": "/icons/schoolsubject/math.png"
+                },
+                {
+                    "name": "Science",
+                    "icon": "/icons/schoolsubject/science.png"
+                },
+                {
+                    "name": "History",
+                    "icon": "/icons/schoolsubject/history.png"
+                },
+                {
+                    "name": "Economics",
+                    "icon": "/icons/schoolsubject/economics.png"
+                },
+                {
+                    "name": "Language Arts",
+                    "icon": "/icons/schoolsubject/english.png"
+                },
+                {
+                    "name": "Art",
+                    "icon": "/icons/schoolsubject/art.png"
+                },
+                {
+                    "name": "Music",
+                    "icon": "/icons/schoolsubject/music.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Transportation",
+            "buttons": [
+                {
+                    "name": "Car",
+                    "icon": "/icons/transportation/car.png"
+                },
+                {
+                    "name": "Train",
+                    "icon": "/icons/transportation/train.png"
+                },
+                {
+                    "name": "Plane",
+                    "icon": "/icons/transportation/plane.png"
+                },
+                {
+                    "name": "Bus",
+                    "icon": "/icons/transportation/bus.png"
+                },
+                {
+                    "name": "Boat",
+                    "icon": "/icons/transportation/boat.png"
+                },
+                {
+                    "name": "Walking",
+                    "icon": "/icons/transportation/walking.png"
+                },
+                {
+                    "name": "Biking",
+                    "icon": "/icons/transportation/bicycle.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Type of Exercise",
+            "buttons": [
+                {
+                    "name": "Running",
+                    "icon": "/icons/typeofexercise/running.png"
+                },
+                {
+                    "name": "Weightlifting",
+                    "icon": "/icons/typeofexercise/weightlifting.png"
+                },
+                {
+                    "name": "Swimming",
+                    "icon": "/icons/typeofexercise/swimming.png"
+                },
+                {
+                    "name": "Yoga",
+                    "icon": "/icons/typeofexercise/yoga.png"
+                },
+                {
+                    "name": "Climbing",
+                    "icon": "/icons/typeofexercise/climbing.png"
+                },
+                {
+                    "name": "Cycling",
+                    "icon": "/icons/typeofexercise/cycling.png"
+                }
+            ]
+        },
+        {
+            "cover": "/icons/boxbackgrounds/color.png",
+            "title": "Cuisine",
+            "buttons": [
+                {
+                    "name": "American",
+                    "icon": "/icons/cuisine/american.png"
+                },
+                {
+                    "name": "Indian",
+                    "icon": "/icons/cuisine/indian.png"
+                },
+                {
+                    "name": "Chinese",
+                    "icon": "/icons/cuisine/chinese.png"
+                },
+                {
+                    "name": "Mexican",
+                    "icon": "/icons/cuisine/mexican.png"
+                },
+                {
+                    "name": "Japanese",
+                    "icon": "/icons/cuisine/japanese.png"
+                },
+                {
+                    "name": "Italian",
+                    "icon": "/icons/cuisine/italian.png"
+                }
+            ]
+        }
+    ]
+}
