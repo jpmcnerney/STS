@@ -1,27 +1,22 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
-const awsServerlessExpress = require('aws-serverless-express');
-const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware');
 const serverless = require('serverless-http');
 
 const app = express();
-const port = 3030;
 
 app.use(bodyParser.json());
 
 // Set up CORS headers to allow requests from your React app
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3003'); // React app origin
+  res.setHeader('Access-Control-Allow-Origin', process.env); // React app origin
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('Access-Control-Allow-Credentials', true);
   next();
 });
 
-app.use(awsServerlessExpressMiddleware.eventContext());
-
-const uri = 'mongodb+srv://jpmcnerney1:jksm1234@dbdemocluster.co6z0ck.mongodb.net/';
+const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.post('/updateClickCount', async (req, res) => {
@@ -51,12 +46,15 @@ app.get('/getClickStats', async (req, res) => {
 
     const { boxTitle, buttonName } = req.query;
 
+    // Get total clicks for the category
     const totalResults = await collection.find({ category: boxTitle }).toArray();
     const totalClicks = totalResults.reduce((sum, doc) => sum + (doc.clicks || 0), 0);
 
+    // Get clicks for the specific button
     const buttonResult = await collection.findOne({ category: boxTitle, name: buttonName });
     const buttonClicks = buttonResult ? buttonResult.clicks || 0 : 0;
 
+    // Calculate percentage
     const percentage = totalClicks ? (buttonClicks / totalClicks) * 100 : 0;
 
     res.status(200).json({ totalClicks, buttonClicks, percentage });
@@ -66,11 +64,12 @@ app.get('/getClickStats', async (req, res) => {
   }
 });
 
-const server = awsServerlessExpress.createServer(app);
+// Health check route
+app.get('/', (req, res) => {
+  res.status(200).send('Server is running successfully');
+});
 
-exports.handler = (event, context) => {
-  return awsServerlessExpress.proxy(server, event, context);
-};
+module.exports.handler = serverless(app);
 
 
 // const express = require('express');
@@ -84,7 +83,7 @@ exports.handler = (event, context) => {
 
 // // Set up CORS headers to allow requests from your React app
 // app.use((req, res, next) => {
-//   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3003'); // React app origin
+//   res.setHeader('Access-Control-Allow-Origin', 'https://main.d2t4nvo240qvkm.amplifyapp.com/'); // React app origin
 //   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
 //   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 //   res.setHeader('Access-Control-Allow-Credentials', true);
