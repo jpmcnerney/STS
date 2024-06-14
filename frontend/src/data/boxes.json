@@ -171,7 +171,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/food.png",
+            "cover": "/icons/boxbackgrounds/film.png",
             "title": "Theater Snack",
             "buttons": [
                 {
@@ -291,7 +291,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/music.png",
+            "cover": "/icons/boxbackgrounds/drink.png",
             "title": "Soft Drink",
             "buttons": [
                 {
@@ -321,7 +321,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/drink.png",
+            "cover": "/icons/boxbackgrounds/martini.png",
             "title": "Hard Drink",
             "buttons": [
                 {
@@ -347,7 +347,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/music.png",
             "title": "Music Genre",
             "buttons": [
                 {
@@ -377,7 +377,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/desktop.png",
             "title": "Media",
             "buttons": [
                 {
@@ -407,7 +407,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/basketball.png",
             "title": "Sport",
             "buttons": [
                 {
@@ -497,7 +497,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/gift.png",
             "title": "Holiday",
             "buttons": [
                 {
@@ -535,7 +535,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/pencil.png",
             "title": "School Subject",
             "buttons": [
                 {
@@ -569,7 +569,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/car.png",
             "title": "Transportation",
             "buttons": [
                 {
@@ -603,7 +603,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/runner.png",
             "title": "Type of Exercise",
             "buttons": [
                 {
@@ -633,7 +633,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/food.png",
             "title": "Cuisine",
             "buttons": [
                 {
