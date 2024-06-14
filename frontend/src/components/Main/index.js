@@ -159,8 +159,7 @@ const Main = () => {
                                     <div className="button-box" key={buttonIndex}>
                                         <button
                                             className={`button-image ${selectedButtons[box.title] === button.name ? 'selected' : ''}`}
-                                            onClick={() => buttonClicked(box.title, button.name)}
-                                        >
+                                            onClick={() => buttonClicked(box.title, button.name)}>
                                             <img src={button.icon} className="button-icon" alt="Button icon" />
                                         </button>
                                     </div>
