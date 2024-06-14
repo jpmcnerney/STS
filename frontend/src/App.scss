@@ -17,6 +17,19 @@ $primary-color: #cb1111;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('/fonts/Coolvetica-Regular.woff2') format('woff2'),
+       url('/fonts/Coolvetica-Regular.woff') format('woff'),
+       url('/fonts/Coolvetica-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Coolvetica', sans-serif;
+}
+
 input,
 textarea {
   font-family: 'Helvetica Neue';
