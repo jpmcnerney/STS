@@ -54,7 +54,7 @@ const Main = () => {
     
         try {
             // Send a request to update click count
-            const updateResponse = await fetch('https://4cw5q4i2cy5uge4hzpxenvgley0tqauz.lambda-url.us-east-2.on.aws/updateClickCount', {
+            const updateResponse = await fetch('https://ibctdi3hc1.execute-api.us-east-2.amazonaws.com/dev/updateClickCount', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -71,7 +71,7 @@ const Main = () => {
     
         try {
             // Send a request to get click stats
-            const statsResponse = await fetch(`https://4cw5q4i2cy5uge4hzpxenvgley0tqauz.lambda-url.us-east-2.on.aws/getClickStats?boxTitle=${encodeURIComponent(boxTitle)}&buttonName=${encodeURIComponent(buttonName)}`);
+            const statsResponse = await fetch(`https://ibctdi3hc1.execute-api.us-east-2.amazonaws.com/dev/getClickStats?boxTitle=${encodeURIComponent(boxTitle)}&buttonName=${encodeURIComponent(buttonName)}`);
             if (!statsResponse.ok) {
                 throw new Error('Network response was not ok');
             }
