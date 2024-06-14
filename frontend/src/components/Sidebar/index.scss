@@ -69,16 +69,25 @@
     .nav-bar {
 
         .nav-title {
-            font-size: 23px;
+            font-size: 16px;
         }
 
         .buttons {
 
-            padding-left: 72px;
+            padding-left: 40px;
             
             a {
-                font-size: 34px;
-                padding: 12px;
+                font-size: 26px;
+                padding: 14px;
+            }
+        }
+
+        .logo {
+            right: 3%;
+
+            img {
+                padding-top: 4px;
+                width: 30px;
             }
         }
     }

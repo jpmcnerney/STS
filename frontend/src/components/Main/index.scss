@@ -223,7 +223,7 @@
       .box {
         flex: 1 1 33%;
         border: 3px solid black;
-        height: 215px;
+        height: 190px;
 
         .box-header {
           height: 24%;
@@ -231,20 +231,20 @@
         }
 
         .title {
-          font-size: 20px;
+          font-size: 17px;
         }
 
         .selection-label {
-          font-size: 16px;
-          -webkit-text-stroke-width: 0.4px;
+          font-size: 13px;
+          -webkit-text-stroke-width: 0.25px;
         }
 
         .stats-label {
-          font-size: 10px;
+          font-size: 9px;
         }
 
           .box-image {
-            top: 70px;
+            top: 60px;
           }
 
           .button-icon {
