@@ -7,6 +7,16 @@ $primary-color: #cb1111;
   src: url('../public/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Archivo';
+  src: url('../public/fonts/Archivo-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Archivo-Bold';
+  src: url('../public/fonts/Archivo-Bold.ttf') format('truetype');
+}
+
 body, input, textarea {
   font-family: 'Coolvetica', sans-serif;
 }
