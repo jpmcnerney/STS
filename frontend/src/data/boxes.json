@@ -317,6 +317,10 @@
                 {
                     "name": "Milk",
                     "icon": "/icons/buttonbackgrounds/milk.png"
+                },
+                {
+                    "name": "Soda",
+                    "icon": "/icons/buttonbackgrounds/cola.png"
                 }
             ]
         },
