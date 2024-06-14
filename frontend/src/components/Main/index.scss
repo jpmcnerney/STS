@@ -5,7 +5,6 @@
   height: 100vh; // Set the height of the main page to the full viewport height
   font-family: "Archivo-Bold";
 
-  
   .header {
     width: 100%;
   }
@@ -114,7 +113,7 @@
         z-index: 1;
         border-radius: 50%;
         padding: 2px;
-        padding-top: 10px;
+        padding-top: 5px;
         min-width: calc(20% - 10px);
         max-width: calc(100% - 25px);
       }
@@ -221,7 +220,7 @@
     }
 
     .boxes-container {
-        padding-bottom: 50px;
+      padding-bottom: 50px;
 
       .box {
         flex: 1 1 33%;
@@ -246,14 +245,14 @@
           font-size: 9px;
         }
 
-          .box-image {
-            top: 60px;
-          }
-
-          .button-icon {
-            width: 30px;
-          }
+        .box-image {
+          top: 60px;
         }
+
+        .button-icon {
+          width: 33px;
+        }
+      }
     }
   }
 
@@ -268,7 +267,7 @@
     z-index: 1000; /* Ensure the footer is above other content */
     text-align: center;
     font-family: "Archivo-Bold";
-  
+
     .greeting,
     .probability-label,
     .small-talk-comparison {
@@ -277,26 +276,25 @@
       margin: 0;
       padding: 5px 0;
     }
-  
+
     .greeting {
       font-size: 16px;
       font-weight: 400;
     }
-  
+
     .probability-label {
       font-size: 13px;
       font-weight: 400;
     }
-  
+
     .combined-probability {
       font-size: 16px;
       font-weight: 700;
     }
-  
+
     .small-talk-comparison {
       font-size: 13px;
       font-weight: 400;
     }
   }
-
 }
