@@ -3,18 +3,8 @@ $primary-color: #cb1111;
 @import 'animate.css';
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('/fonts/helvetica-neu.ttf') format('truetype'); /* 'ttf' is not a valid format, it should be 'truetype' */
-}
-
-@font-face {
-  font-family: 'La Belle Aurore';
-  src: url('/fonts/LaBelleAurore.woff2') format('woff2');
-}
-
-@font-face {
   font-family: 'Coolvetica';
-  src: url('/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+  src: url('../public/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
 body {
