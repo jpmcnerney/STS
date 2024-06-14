@@ -6,7 +6,7 @@
             "buttons": [
                 {
                     "name": "Red",
-                    "icon": "/icons/boxbackgrounds/redcolor.png"
+                    "icon": "/icons/buttonbackgrounds/redcolor.png"
                 },
                 {
                     "name": "Blue",
@@ -100,7 +100,7 @@
                 },
                 {
                     "name": "Bear",
-                    "icon": "/icons/animal/bear.png",
+                    "icon": "/icons/buttonbackgrounds/bear.png",
                     "color": "#23d939"
                 },
                 {
