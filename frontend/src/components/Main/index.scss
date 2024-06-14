@@ -1,9 +1,10 @@
 .main-page {
-  padding-top: 90px;
+  padding-top: 96px;
   display: flex;
   flex-direction: column;
   height: 100vh; // Set the height of the main page to the full viewport height
   font-family: "Archivo-Bold";
+
   
   .header {
     width: 100%;
@@ -42,7 +43,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px; // Add padding to the boxes container
+    padding: 2px; // Add padding to the boxes container
     overflow-y: auto; // Enable vertical scrolling for the boxes container
     max-height: calc(
       100vh - 230px
@@ -250,7 +251,7 @@
           }
 
           .button-icon {
-            width: 40px;
+            width: 30px;
           }
         }
     }
