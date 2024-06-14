@@ -1,7 +1,7 @@
 {
     "boxes": [
         {
-            "cover": "/icons/boxbackgrounds/color.png",
+            "cover": "/icons/boxbackgrounds/palette.png",
             "title": "Color",
             "buttons": [
                 {
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/animal.png",
+            "cover": "/icons/boxbackgrounds/fish.png",
             "title": "Animal",
             "buttons": [
                 {
@@ -197,7 +197,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/vacation.png",
+            "cover": "/icons/boxbackgrounds/pin.png",
             "title": "Vacation",
             "buttons": [
                 {
@@ -233,7 +233,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/season.png",
+            "cover": "/icons/boxbackgrounds/leaf.png",
             "title": "Season",
             "buttons": [
                 {
@@ -255,7 +255,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/candy.png",
+            "cover": "/icons/boxbackgrounds/cookie.png",
             "title": "Dessert",
             "buttons": [
                 {
@@ -291,7 +291,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/drink.png",
+            "cover": "/icons/boxbackgrounds/water.png",
             "title": "Soft Drink",
             "buttons": [
                 {
@@ -633,7 +633,7 @@
             ]
         },
         {
-            "cover": "/icons/boxbackgrounds/food.png",
+            "cover": "/icons/boxbackgrounds/utensils.png",
             "title": "Cuisine",
             "buttons": [
                 {
