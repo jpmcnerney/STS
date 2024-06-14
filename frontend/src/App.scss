@@ -7,11 +7,6 @@ $primary-color: #cb1111;
   src: url('../public/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
-body {
+body, input, textarea {
   font-family: 'Coolvetica', sans-serif;
-}
-
-input,
-textarea {
-  font-family: 'Helvetica Neue';
 }
