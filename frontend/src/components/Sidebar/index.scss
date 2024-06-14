@@ -63,3 +63,24 @@
         }
     }
 }
+
+@media screen and (max-width: 1800px) {
+
+    .nav-bar {
+
+        .nav-title {
+            font-size: 23px;
+        }
+
+        .buttons {
+
+            padding-left: 72px;
+            
+            a {
+                font-size: 34px;
+                padding: 12px;
+            }
+        }
+    }
+
+}

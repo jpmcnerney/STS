@@ -31,3 +31,23 @@
     }
   }
   
+  @media screen and (max-width: 1200px) {
+
+    .info-page {
+        padding-top: 80px;
+
+        .header {
+            font-size: 38px;
+        }
+
+        .description {
+            font-size: 20px;
+        }
+
+        .info-list {
+            font-size: 18px;
+        }
+    }
+
+}
+

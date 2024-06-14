@@ -145,8 +145,7 @@ const Main = () => {
                                 <p className="selection-label">Selected: {selectedButtons[box.title] || "None"}</p>
                                 {selectedButtons[box.title] && (
                                     buttonLoading[box.title] ? (
-                                        <div className="loader-container loader-visible">
-                                            <Loader type="ball-pulse-sync" active />
+                                        <div>
                                         </div>
                                     ) : (
                                         <p className="stats-label">{buttonStats[box.title]?.[selectedButtons[box.title]] !== undefined ? `${buttonStats[box.title][selectedButtons[box.title]].toFixed(1).replace('.0', '')}% of users agree!` : '?% of users agree!'}</p>

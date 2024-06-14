@@ -4,7 +4,7 @@
   flex-direction: column;
   height: 100vh; // Set the height of the main page to the full viewport height
   font-family: "Archivo-Bold";
-
+  
   .header {
     width: 100%;
   }
@@ -83,22 +83,6 @@
       padding-bottom: 2px;
     }
 
-    .loader-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-
-    .loader-visible {
-      opacity: 1;
-      transition: opacity 0.2s;
-    }
-
-    .loader-hidden {
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-
     .stats-label {
       color: white;
       line-height: 0;
@@ -175,7 +159,7 @@
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000; /* Ensure the footer is above other content */
   text-align: center;
-  font-family: 'Archivo-Bold';
+  font-family: "Archivo-Bold";
 
   .greeting,
   .probability-label,
@@ -223,4 +207,93 @@
     animation: fadeInAnimation #{1s} forwards;
     animation-delay: ($i + 4) * 0.25s;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-page {
+    .header-title {
+      font-size: 18px;
+    }
+
+    .header-note {
+      font-size: 12px;
+    }
+
+    .boxes-container {
+      .box {
+        flex: 1 1 33%;
+        border: 3px solid black;
+        height: 215px;
+
+        .box-header {
+          height: 24%;
+          padding-left: 8px;
+        }
+
+        .title {
+          font-size: 20px;
+        }
+
+        .selection-label {
+          font-size: 16px;
+          -webkit-text-stroke-width: 0.4px;
+        }
+
+        .stats-label {
+          font-size: 10px;
+        }
+
+          .box-image {
+            top: 70px;
+          }
+
+          .button-icon {
+            width: 40px;
+          }
+        }
+    }
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the footer is above other content */
+    text-align: center;
+    font-family: "Archivo-Bold";
+  
+    .greeting,
+    .probability-label,
+    .small-talk-comparison {
+      color: black;
+      line-height: 0.9;
+      margin: 0;
+      padding: 5px 0;
+    }
+  
+    .greeting {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  
+    .probability-label {
+      font-size: 13px;
+      font-weight: 400;
+    }
+  
+    .combined-probability {
+      font-size: 16px;
+      font-weight: 700;
+    }
+  
+    .small-talk-comparison {
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+
 }
