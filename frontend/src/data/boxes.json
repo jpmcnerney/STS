@@ -6,7 +6,7 @@
             "buttons": [
                 {
                     "name": "Red",
-                    "icon": "/icons/boxbackgrounds/palette.png"
+                    "icon": "/icons/boxbackgrounds/redcolor.png"
                 },
                 {
                     "name": "Blue",
