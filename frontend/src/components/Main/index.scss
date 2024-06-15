@@ -5,6 +5,7 @@
   height: 100vh; // Set the height of the main page to the full viewport height
   font-family: "Archivo-Bold";
   overflow: hidden;
+  touch-action: pan-x, pan-y;
 
   .header {
     width: 100%;
@@ -161,6 +162,7 @@
   z-index: 1000; /* Ensure the footer is above other content */
   text-align: center;
   font-family: "Archivo-Bold";
+  touch-action: pan-x, pan-y;
 
   .greeting,
   .probability-label,
