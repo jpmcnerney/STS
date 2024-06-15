@@ -6,6 +6,8 @@
   font-family: "Archivo-Bold";
   overflow: hidden;
   touch-action: pan-x, pan-y;
+  width: 100%; // Ensure the main page content takes the full width of the viewport
+
 
   .header {
     width: 100%;
@@ -47,6 +49,7 @@
     padding: 2px; // Add padding to the boxes container
     overflow-y: auto; // Enable vertical scrolling for the boxes container
     min-height: calc(100vh - 230px); // Adjust the min-height according to your footer height and padding
+    width: 100%;
   }
 
   .box {
