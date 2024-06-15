@@ -1,53 +1,51 @@
 .info-page {
-    padding-left: 25px;
-    padding-top: 75px;
-    height: 100%;
-    width: 90%;
-    overflow: auto;
-    font-family: 'Archivo-Bold';
-  
-    .header {
-      color: black;
-      line-height: 1;
-      font-size: 46px;
-      font-weight: 400;
-      text-align: left; /* Aligns text to the left */
-    }
-  
-    .description {
-      color: black;
-      line-height: 1;
-      font-size: 32px;
-      font-weight: 400;
-      padding-left: 8px;
-      text-align: left; /* Aligns text to the left */
-    }
-  
-    .info-list {
-      color: black;
-      font-size: 22px;
-      padding-bottom: 100px;
-      text-align: left; /* Aligns text to the left */
-    }
+  padding-left: 25px;
+  padding-top: 75px;
+  height: 100%;
+  width: 90%;
+  overflow: auto;
+  font-family: "Archivo-Bold";
+
+  .header {
+    color: black;
+    line-height: 1;
+    font-size: 46px;
+    font-weight: 400;
+    text-align: left; /* Aligns text to the left */
   }
-  
-  @media screen and (max-width: 1200px) {
 
-    .info-page {
-        padding-top: 80px;
+  .description {
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    font-weight: 400;
+    padding-left: 8px;
+    text-align: left; /* Aligns text to the left */
+  }
 
-        .header {
-            font-size: 38px;
-        }
-
-        .description {
-            font-size: 20px;
-        }
-
-        .info-list {
-            font-size: 18px;
-        }
-    }
-
+  .info-list {
+    color: black;
+    font-size: 22px;
+    padding-bottom: 100px;
+    text-align: left; /* Aligns text to the left */
+  }
 }
 
+@media screen and (max-width: 1000px) {
+  .info-page {
+    padding-top: 80px;
+
+    .header {
+      font-size: 34px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    .info-list {
+      font-size: 12px;
+      padding-bottom: 200px;
+    }
+  }
+}

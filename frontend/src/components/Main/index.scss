@@ -1,5 +1,5 @@
 .main-page {
-  padding-top: 96px;
+  padding-top: 106px;
   display: flex;
   flex-direction: column;
   height: 100vh; // Set the height of the main page to the full viewport height
@@ -209,8 +209,14 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .main-page {
+    padding-top: 90px;
+
+    .header {
+      padding-top: 6px;
+    }
+
     .header-title {
       font-size: 14px;
     }
@@ -278,22 +284,22 @@
     }
 
     .greeting {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
     }
 
     .probability-label {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 400;
     }
 
     .combined-probability {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 700;
     }
 
     .small-talk-comparison {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 400;
     }
   }
