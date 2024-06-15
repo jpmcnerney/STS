@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./index.scss";
-import Loader from "react-loaders";
 import "loaders.css/loaders.min.css";
 import boxesData from '../../data/boxes.json';
 
