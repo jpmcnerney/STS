@@ -2,7 +2,7 @@
   padding-top: 106px;
   display: flex;
   flex-direction: column;
-  height: 100vh; // Set the height of the main page to the full viewport height
+  min-height: 100vh;
   font-family: "Archivo-Bold";
   overflow: hidden;
   touch-action: pan-x, pan-y;
@@ -46,9 +46,7 @@
     gap: 10px;
     padding: 2px; // Add padding to the boxes container
     overflow-y: auto; // Enable vertical scrolling for the boxes container
-    max-height: calc(
-      100vh - 230px
-    ); // Adjust the max-height according to your footer height and padding
+    min-height: calc(100vh - 230px); // Adjust the min-height according to your footer height and padding
   }
 
   .box {
@@ -162,7 +160,6 @@
   z-index: 1000; /* Ensure the footer is above other content */
   text-align: center;
   font-family: "Archivo-Bold";
-  touch-action: pan-x, pan-y;
 
   .greeting,
   .probability-label,
