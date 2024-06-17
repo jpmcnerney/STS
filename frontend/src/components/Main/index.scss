@@ -6,7 +6,7 @@ body {
 }
 
 .main-page {
-  padding-top: 106px;
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
   height: 100vh; // Set the height of the main page to the full viewport height
@@ -15,12 +15,6 @@ body {
 
   .header {
     width: 100%;
-  }
-
-  .boxes {
-    flex: 1; // Allow the boxes container to take up remaining space
-    overflow-y: auto; // Enable vertical scrolling
-    padding: 10px; // Add padding to the boxes container
   }
 
   .header-title {
@@ -46,15 +40,24 @@ body {
     }
   }
 
-  .boxes-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 2px; // Add padding to the boxes container
-    overflow-y: auto; // Enable vertical scrolling for the boxes container
-    max-height: calc(
-      100vh - 230px
-    ); // Adjust the max-height according to your footer height and padding
+  .boxes {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    padding-bottom: 400px;
+
+    .boxes-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 2px;
+      overflow-y: auto;
+
+      // Set a min-height to ensure there's space for scrolling
+      min-height: calc(
+        100vh - 216px
+      ); // Adjust based on your footer height and padding
+    }
   }
 
   .box {
