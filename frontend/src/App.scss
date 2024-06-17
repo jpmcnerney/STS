@@ -9,12 +9,16 @@ $primary-color: #cb1111;
 
 @font-face {
   font-family: 'Archivo';
-  src: url('../public/fonts/Archivo-VariableFont_wdth,wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 }
 
 @font-face {
   font-family: 'Archivo-Bold';
-  src: url('../public/fonts/Archivo-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
 }
 
 body, input, textarea {
