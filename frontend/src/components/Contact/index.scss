@@ -1,135 +1,134 @@
 .contact-page {
-    padding-top: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%; /* Full viewport height */
-    width: 100%; /* Full viewport width */
-    font-family: 'Archivo-Bold', Arial;
-    font-weight: bold;
-  }
-  
-  .top-label {
-    font-size: 42px;
-    color: black;
-  }
-  
-  .contact-form {
-    width: 100%; /* Adjust width as needed */
-    margin-top: 20px;
-  
-    ul {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  font-family: "Archivo-Bold", Arial;
+  font-weight: bold;
+}
+
+.top-label {
+  padding-left: 10px;
+  font-size: 42px;
+  color: black;
+}
+
+.contact-form {
+  padding-left: 10px;
+  width: 90%; /* Adjust width as needed */
+  margin-top: 20px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    position: sticky;
+
+    li {
       padding: 0;
       margin: 0;
-      position: sticky;
-  
-      li {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        margin-bottom: 10px;
-        opacity: 0;
-        overflow: hidden;
-        display: block;
-        clear: both;
-        position: relative;
-        animation: fadeInUp 1.5s 0.2s;
-        animation-fill-mode: forwards;
-      }
-  
-      li.half {
-        width: 49%;
-        margin-left: 2%;
-        float: left;
-        clear: none;
-  
-        &:first-child {
-          margin-left: 0;
-        }
-      }
+      list-style: none;
+      margin-bottom: 10px;
+      opacity: 0;
+      overflow: hidden;
+      display: block;
+      clear: both;
+      position: relative;
+      animation: fadeInUp 1.5s 0.2s;
+      animation-fill-mode: forwards;
     }
-  
-    input[type='text'],
-    input[type='email'] {
-      width: 100%;
-      border: 0;
-      background: white;
-      border: 2px solid black;
-      height: 60px;
-      font-size: 16px;
-      color: black;
-      padding: 0 20px;
-      box-sizing: border-box;
-    }
-  
-    textarea {
-      width: 100%;
-      border: 0;
-      background: white;
-      border: 2px solid black;
-      font-size: 16px;
-      color: black;
-      padding: 20px;
-      box-sizing: border-box;
-      min-height: 200px;
-    }
-  
-    .flat-button {
-      color: black;
-      font-size: 11px;
-      letter-spacing: 3px;
-      text-decoration: none;
-      padding: 8px 10px;
-      border: 2px solid black;
+
+    li.half {
+      width: 49%;
+      margin-left: 2%;
       float: left;
-      border-radius: 4px;
-      background: white;
-      text-transform: uppercase;
-      float: right;
-      text-align: center;
-      margin-right: 10px;
+      clear: none;
+
+      &:first-child {
+        margin-left: 0;
+      }
     }
   }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    border: 0;
+    background: white;
+    border: 2px solid black;
+    height: 60px;
+    font-size: 16px;
+    color: black;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
-  
-  @keyframes backInRight {
-    from {
-      opacity: 0;
-      transform: translateX(100px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+
+  textarea {
+    width: 100%;
+    border: 0;
+    background: white;
+    border: 2px solid black;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 200px;
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+
+  .flat-button {
+    color: black;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 2px solid black;
+    float: left;
+    border-radius: 4px;
+    background: white;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
   }
-  
-  @media screen and (max-width: 1000px) {
+}
 
-    .top-label {
-        font-size: 18px;
-    }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-    .contact-form {
+@keyframes backInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
+@media screen and (max-width: 1000px) {
+  .top-label {
+    font-size: 18px;
+  }
+
+  .contact-form {
+  }
 }
