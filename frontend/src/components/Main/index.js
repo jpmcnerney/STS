@@ -145,6 +145,7 @@ const Main = () => {
                                 {selectedButtons[box.title] && (
                                     buttonLoading[box.title] ? (
                                         <div>
+                                        <p className="stats-label blink-dots">Loading . . .</p>
                                         </div>
                                     ) : (
                                         <p className="stats-label">{buttonStats[box.title]?.[selectedButtons[box.title]] !== undefined ? `${buttonStats[box.title][selectedButtons[box.title]].toFixed(1).replace('.0', '')}% of users agree!` : '?% of users agree!'}</p>
